@@ -8,12 +8,27 @@ nav {
   font-size: 1.2em;
 }
 
-a {
+div>a {
+  text-decoration: none;
+  color:black;
+}
+
+nav a {
   margin-top: 10px;
   display: inline-block;
   margin-right: 10px;
   text-decoration: none;
   color:purple;
+}
+
+ul {
+  padding:0;
+  list-style: none;
+}
+
+ul li a {
+  color: blue;
+  text-decoration: none;
 }
 
 
@@ -51,4 +66,36 @@ form {
 .results {
   margin-top: 2%;
   margin-left: 10%;
+}
+
+.results-nav {
+  padding-top: 5px;
+  border: 1px lightgray solid;
+  height: 2rem;
+  text-align: center;
+}
+
+.prev {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  width:80px;
+  margin-bottom: 8px;
+}
+
+.mid {
+  width: 160px;
+  margin-bottom: 8px;
+  margin-left: -5px;
+}
+
+.next {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  width: 80px;
+  margin-bottom: 8px;
+  margin-left: -5px;
+}
+
+.item {
+  display: inline-block;
 }
